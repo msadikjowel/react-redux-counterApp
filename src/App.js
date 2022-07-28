@@ -1,6 +1,7 @@
 import './App.css';
 import Counter from './components/Counter';
 import Todos from './components/Todos';
+import View from './feature/counter/View';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Counter />
       <h1>React-Redux fetching data</h1>
       <Todos />
+      <h1>Counter app using redux toolkit</h1>
+      <View />
     </div>
   );
 }
